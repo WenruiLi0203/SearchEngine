@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+body {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.9),
+		rgba(255, 255, 255, 0.9) ), url("../images/D10Logo_PinwBorder.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 300px, 300px;
+}
+
+#Top {
+	display: none;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	z-index: 99;
+	font-size: 25px;
+	border: none;
+	outline: none;
+	background: rgba(150, 150, 150, 0.3);
+	color: white;
+	padding: 18px;
+	border-radius: 10px;
+}
+
+#Top:hover {
+	background-color: #149CD8;
+}
